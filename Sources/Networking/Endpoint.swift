@@ -5,6 +5,7 @@ import Foundation
 public enum HTTPMethodType: String {
     case get
     case post
+    case put
 
     // MARK: Public
 
