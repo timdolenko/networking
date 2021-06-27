@@ -139,3 +139,5 @@ public class SpecificLayerNetworkingService: NetworkService {
 
 let service = SpecificLayerNetworkingService(with: networkService)
 ```
+
+Credit: https://github.com/kudoleh/iOS-Clean-Architecture-MVVM
