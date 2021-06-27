@@ -140,4 +140,5 @@ public class SpecificLayerNetworkingService: NetworkService {
 let service = SpecificLayerNetworkingService(with: networkService)
 ```
 
-This framework is an extended version of library I found here: https://github.com/kudoleh/iOS-Clean-Architecture-MVVM
+Reference:
+https://github.com/kudoleh/iOS-Clean-Architecture-MVVM
