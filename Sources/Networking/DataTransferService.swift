@@ -10,7 +10,7 @@ public enum DataTransferError: Error {
 
 // MARK: - DataTransferService
 
-public protocol DataTransferService {
+public protocol DataTransferService: AnyObject {
     typealias CompletionHandler<T> = (Result<T, Error>) -> Void
 
     @discardableResult

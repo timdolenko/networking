@@ -1,6 +1,6 @@
 import Combine
 
-public extension DataTransferService where Self: AnyObject {
+public extension DataTransferService {
     @available(iOS 13.0, *)
     @discardableResult
     func request<T: Decodable, E: ResponseRequestable>(
